@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element name="item">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="string" type="xs:string"/>
+              <xs:element name="normalized-string" type="xs:normalizedString"/>
+              <xs:element name="token" type="xs:token"/>
+              <xs:element name="language" type="xs:language"/>
+              <xs:element name="name" type="xs:Name"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

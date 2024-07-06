@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item>
+    <string>   abc   </string>
+    <normalized-string>Line 1.
+Line 2.
+Line 3.</normalized-string>
+    <token>   abc   </token>
+    <language>   en   </language>
+    <name>   abc   </name>
+  </item>
+</root>
