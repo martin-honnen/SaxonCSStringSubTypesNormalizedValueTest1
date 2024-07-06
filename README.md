@@ -1,1 +1,2 @@
 # SaxonCSStringSubTypesNormalizedValueTest1
+Sample .NET 8 console app that uses a schema validated XDM input document to select the typed value of various XML elements typed with XSD type xs:string and various subtypes like xs:token, xs:language, xs:Name, showing that Saxon performs the XSD required normalization on the values of the subtypes of xs:string
